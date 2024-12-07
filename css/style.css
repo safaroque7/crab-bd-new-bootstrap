@@ -229,6 +229,20 @@
   .x-committee-height {
     height: 600px;
   }
+
+  .lb nav a.lb-next{
+    opacity: none;
+  }
+  
+  .president-message-headline-color{
+    background: #BAE4EC;
+    height: 40px;
+  }
+
+  .president-message-headline-color-second{
+    background: #179D85;
+    height: 200px;
+  }
   
   @media (max-width: 992px) {
     .res-display {
