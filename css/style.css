@@ -144,14 +144,6 @@
     color: #eaac53;
   }
   
-  .bread-crumb-bg{
-    background: #214d4b;
-  }
-  
-  .bread-crumb-nav{
-    
-  }
-  
   .bread-crumb-nav-link{
     text-align: center;
     bottom: -35px;
@@ -191,7 +183,7 @@
   }
   
   .bread-crumb-bg{
-    background-image: url(images/breadcrumb-bg-image.jpg);
+    background-image: url("../images/breadcrumb-bg-image.jpg");
   }
   
   .x-committee-height li a:hover,
@@ -210,7 +202,7 @@
     border-bottom: 0 !important;
   }
   
-  .notice-box {
+  .notice-box-index {
     height: 400px;
   } 
   
@@ -236,12 +228,12 @@
   
   .president-message-headline-color{
     background: #BAE4EC;
-    height: 40px;
+    height: 100px;
   }
 
   .president-message-headline-color-second{
     background: #179D85;
-    height: 200px;
+    height: 250px;
   }
 
   .notice-box {
@@ -258,6 +250,14 @@
 
   .notice-card-text{
     overflow: hidden;
+  }
+
+  .message-img{
+    height: 250px;
+  }
+
+  .message-text{
+    font-size: 14px;
   }
   
   @media (max-width: 992px) {
