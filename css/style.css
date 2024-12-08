@@ -243,6 +243,22 @@
     background: #179D85;
     height: 200px;
   }
+
+  .notice-box {
+    height: 830px;
+  } 
+  
+  .overflow-y-scroll {
+    overflow-x: hidden;
+  }
+
+  .notice-card-box{
+    height: 120px;
+  }
+
+  .notice-card-text{
+    overflow: hidden;
+  }
   
   @media (max-width: 992px) {
     .res-display {
@@ -264,6 +280,11 @@
     }
     .bread-crumb-nav-link li a h5{
       font-size: 15px;
+    }
+
+    .notice-card-text{
+      font-size: 18px;
+      overflow: hidden;
     }
   }
   
