@@ -671,8 +671,17 @@ body {
 }
 
 
-@media (max-width: 766) {
+@media (max-width: 766px) {
   .nth-child-border-end-none:nth-child(2n) {
     border-right: none !important;
   }
+
+  .notice-box-index {
+    height: 200px;
+  }
+
+  .logo-size {
+    max-width: 75px;
+    max-height: 108px;
+}
 }
