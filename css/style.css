@@ -31,6 +31,13 @@
   font-weight: 646;
 }
 
+.last-child-margin-bottom-0:nth-last-child(3),
+.last-child-margin-bottom-0:nth-last-child(2),
+.last-child-margin-bottom-0:nth-last-child(1) {
+  margin-bottom: 0 !important;
+}
+
+
 .header-hover li {
   border-bottom: 4px solid transparent;
   transition: 0.2s;
@@ -360,7 +367,7 @@ body {
 
 .footer-email-button-border,
 .header-font-size li a {
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .footer-email-button-border,
@@ -375,11 +382,11 @@ body {
 }
 
 .nav-active-border {
-  border-bottom: 4px solid #eaac53 !important;
+  border-bottom: 4px solid #008344 !important;
 }
 
 .header-hover li:hover {
-  border-bottom: 4px solid #eaac53;
+  border-bottom: 4px solid #008344;
 }
 
 .header-last-link-list {
@@ -683,5 +690,6 @@ body {
   .logo-size {
     max-width: 75px;
     max-height: 108px;
+  }
 }
-}
+
